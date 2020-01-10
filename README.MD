@@ -5,6 +5,9 @@ $ python --version
 ```
 Make sure it is "Python 2.7.xxx"
 
+## Prepare
+Install CppRest package according to https://github.com/microsoft/cpprestsdk.
+
 ## Build
 Run below command:
 ```
@@ -14,7 +17,7 @@ $ python setup.py build
 ## Install
 Run:
 ```
-$ python setup.py install
+$ sudo python setup.py install
 ```
 
 ## Test
