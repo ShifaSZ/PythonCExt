@@ -5,6 +5,9 @@ $ python --version
 ```
 Make sure it is "Python 2.7.xxx"
 
+## Prepare
+Install CppRest package according to https://github.com/microsoft/cpprestsdk.
+
 ## Build
 Run below command:
 ```
