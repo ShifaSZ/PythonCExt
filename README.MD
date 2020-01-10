@@ -1,4 +1,4 @@
-# Installing guide
+# Installing and Using Guide
 This example works with Python2.7 only. Run:
 ```
 $ python --version
@@ -7,7 +7,7 @@ Make sure it is "Python 2.7.xxx"
 
 ## Prepare
 Install CppRest package according to https://github.com/microsoft/cpprestsdk.
-*Hints*: Online binary version of the package needs to be installed. After installation, update the include and library paths in setup.py to match you system. 
+*Hints*: Online binary version of the package needs to be installed. After installation, update the include and library paths in "setup.py" to match your system. 
 
 ## Build
 Run below command:
