@@ -3,10 +3,10 @@ from distutils.core import setup, Extension
 spammodul = Extension('spam',
                     define_macros = [('MAJOR_VERSION', '1'),
                                      ('MINOR_VERSION', '0')],
-                    include_dirs = ['/usr/local/include'],
-                    #libraries = ['cpprest', 'boost_system'],
-                    library_dirs = ['/usr/local/lib'],
-                    sources = ['spammodule.c'])
+                    include_dirs = ['/usr/include'],
+                    libraries = ['cpprest', 'boost_system', 'boost_chrono'],
+                    library_dirs = ['/usr/lib/x86_64-linux-gnu'],
+                    sources = ['spammodule.c', 'http_client.cpp'])
 
 setup (name = 'spam',
        version = '1.0',
