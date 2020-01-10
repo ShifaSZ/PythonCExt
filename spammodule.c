@@ -51,10 +51,9 @@ static PyObject *
 http_get(PyObject *self, PyObject *args)
 {
     char *rsp = http_get_data();
-    if (NULL == rsp)
-        return PyLong_FromLong(-1);
-    printf("%s", rsp);
-    free(rsp);
-    return PyLong_FromLong(0);
+    PyObject *ret = Py_BuildValue("s", rsp);
+    if (NULL != rsp)
+        free(rsp);
+    return ret;
 }
 
