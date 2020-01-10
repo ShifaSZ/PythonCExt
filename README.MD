@@ -7,6 +7,7 @@ Make sure it is "Python 2.7.xxx"
 
 ## Prepare
 Install CppRest package according to https://github.com/microsoft/cpprestsdk.
+*Hints*: Online binary version of the package needs to be installed. After installation, update the include and library paths in setup.py to match you system. 
 
 ## Build
 Run below command:
@@ -29,4 +30,6 @@ Python 2.7.15+ (default, Oct  7 2019, 17:39:04)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import spam
 >>> spam.system("ls -l")
+>>> record = spam.get()
+>>> record
 ```
