@@ -17,7 +17,7 @@ $ python setup.py build
 ## Install
 Run:
 ```
-$ python setup.py install
+$ sudo python setup.py install
 ```
 
 ## Test
