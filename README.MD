@@ -33,3 +33,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> record = spam.get()
 >>> record
 ```
+
+## References
+[1] Extending Python with C or C++. https://docs.python.org/2/extending/extending.html
