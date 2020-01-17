@@ -35,6 +35,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 ## References
-[1] Extending Python with C or C++. https://docs.python.org/2/extending/extending.html
-[2] HL7 FHIR Foundation Enabling health interoperability through FHIR http://fhir.org/
+[1] Extending Python with C or C++. https://docs.python.org/2/extending/extending.html\
+[2] HL7 FHIR Foundation Enabling health interoperability through FHIR http://fhir.org/\
 [3] https://fhir-drills.github.io/index.html
